@@ -3,9 +3,7 @@
 
 __author__ = 'Michael Liao'  # thank for his hlpy
 
-import asyncio , logging
-
-import aiomysql
+import asyncio, logging,aiomysql
 
 def log(sql, args=()):
     logging.info('SQL: %s' % sql)
